@@ -1,5 +1,11 @@
+background
+====
+本项目宗旨时建立各类环境下基于openssl的实现认证和示例
+
 install
 ====
+系统环境　ubuntu16.04
+内核版本　5.2
 
 make
 
@@ -64,10 +70,14 @@ SSL_read(con->sslHandle, buf, sizeof buf);
 ```
 comments
 ====
-
 those examples demostrate how to write sync/async openssl programs
 
 email
 ====
+longxiaozhang@126.com
 
-dongfuye@163.com
+reference
+====
+代码实现引用参考：
+python	https://blog.csdn.net/vip97yigang/article/details/84721027
+c	https://www.cnblogs.com/Anker/p/6018032.html

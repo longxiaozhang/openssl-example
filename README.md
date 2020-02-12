@@ -4,10 +4,15 @@ background
 
 install
 ====
+1.系统环境
 系统环境　ubuntu16.04
 内核版本　5.2
+python版本　3.6
 
-make
+２．编译
+c语言编译
+gcc -o client client.c -lssl -lcrypto
+
 
 usage
 ====
